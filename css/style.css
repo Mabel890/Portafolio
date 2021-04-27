@@ -4,13 +4,57 @@ body {
 }
 
 h1 {
-    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 p {
-    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
 }
 
 a {
-    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+}
+
+/* Trabajos */
+.trabajos {
+    margin: 1em;
+}
+.trabajos__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+.trabajos-p {
+    font-weight: 300;
+}
+
+/* experience */
+.experience {
+  margin: 1em;
+}
+.experience__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+.experience__card > p:first-child {
+    font-weight: 700;
+}
+.experience__card > p:last-child {
+    font-weight: 300;
 }
