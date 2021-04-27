@@ -28,6 +28,14 @@ a {
     color: black;
 }
 
+/* Cabezera */
+.cabezera {
+    margin: 1em;
+}
+.cabezera-p {
+    font-weight: 300;
+}
+
 /* Trabajos */
 .trabajos {
     margin: 1em;
