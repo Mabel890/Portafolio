@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
@@ -65,4 +66,30 @@ a {
 }
 .experience__card > p:last-child {
     font-weight: 300;
+}
+/* footer */
+.footer-wrapper{
+    color:#999999;  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    font-family: 'Inter', sans-serif;  
+}
+
+.footer-wrapper__message{
+    padding-bottom: 24px;   
+    text-align: center;    
+}
+.footer-wrapper__message p{
+    margin:0;
+}
+.footer-wrapper__media{    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-wrapper__media a{
+    color:#999999;    
+    font-size: 14px;
+    width: 54px;
+    line-height: 17px;
+    text-decoration: none;
 }
