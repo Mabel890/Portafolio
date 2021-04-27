@@ -1,0 +1,16 @@
+/* experience */
+.experience {
+  margin: 1em;
+}
+.experience__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+.experience__card > p:first-child {
+    font-weight: 700;
+}
+.experience__card > p:last-child {
+    font-weight: 300;
+}
