@@ -45,13 +45,13 @@ a {
 
 /* experience */
 .experience {
-  margin: 1em;
+    margin: 1em;
 }
 .experience__content {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
 }
 .experience__card > p:first-child {
     font-weight: 700;
@@ -59,6 +59,59 @@ a {
 .experience__card > p:last-child {
     font-weight: 300;
 }
+
+/* contacts */
+.contacts{
+    padding:24px;
+    color:#444444;
+    font-size: 14px;
+    background-color: #F9F9F9;
+    margin-bottom: 64px;
+}
+
+.contacts h1{
+    color:#444444;
+}
+
+.contacts p{
+    color:#999999;
+}
+
+.contacts__form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contacts__form input{
+    height: 40px;
+    border: 1px solid #E7E7E7;
+    outline: none;
+    border-radius: 4px;
+    margin: 8px 0px 24px 0px;  
+}
+
+textarea{
+    height: 81px;
+    border-radius:4px;
+    border: 1px solid #E7E7E7;
+    resize: none;
+    outline: none;
+    margin: 8px 0px 12px 0px;
+}
+
+.contacts__form button{
+    width: 60px;
+    height: 20px;
+    color: #444444;
+    justify-self: end;
+    background-color: #F9F9F9;
+    border:none;
+    border-bottom:2px solid black;
+    text-align:start;
+    padding: 0;
+    font-size: 16px;
+}
+
 /* footer */
 .footer-wrapper{
     color:#999999;  
