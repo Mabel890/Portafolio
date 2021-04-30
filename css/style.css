@@ -1,4 +1,15 @@
 
+/* Concept */
+
+.concept__img{
+    margin: 1em;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px; 
+}
+
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
