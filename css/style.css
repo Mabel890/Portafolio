@@ -33,6 +33,11 @@ a {
 .cabezera {
     margin: 1em;
 }
+.cabezera-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 .cabezera-p {
     font-weight: 300;
 }
@@ -40,6 +45,10 @@ a {
 /* Trabajos */
 .trabajos {
     margin: 1em;
+}
+.trabajos-img {
+    width: 12em;
+    height: 15em;
 }
 .trabajos__content {
     display: grid;
