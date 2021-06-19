@@ -1,45 +1,4 @@
 
-/* Concept */
-
-.concept__img{
-    margin: 1em;
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:10px; 
-}
-
-
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: medium;
-}
-
-h1 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.4em;
-}
-
-h3 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1em;
-}
-
-a {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1em;
-    color: black;
-}
-
 /* Cabezera */
 .cabezera {
     margin: 1em;
@@ -69,6 +28,35 @@ a {
 }
 .trabajos-p {
     font-weight: 300;
+}
+/* Concept */
+
+.concept__img{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px; 
+}
+
+.concept {
+    margin: 1em;
+}
+
+.concept h1 {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.concept p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.concept a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
 }
 
 /* experience */
